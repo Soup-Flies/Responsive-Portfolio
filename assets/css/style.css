@@ -216,6 +216,10 @@ h5 {
 	font-size: 14px;
 }
 
+.hover:focus {
+	outline: 0;
+}
+
 @media screen and (max-width: 980px) {
 
 	#selfie {
@@ -282,7 +286,7 @@ h5 {
 
 	h1 {
 		position: absolute;
-		width: 100vw;
+		width: calc(100vw - 40px);
 		margin-top: -76px;
 	}
 	
